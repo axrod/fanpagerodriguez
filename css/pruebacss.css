@@ -75,6 +75,10 @@ svg circle {
 .icon:hover circle {
   stroke-dasharray: 220; }
 
+body {
+  background-color: black;
+  font-family: "Ninja Naruto"; }
+
 main {
   background: black;
   background: linear-gradient(0deg, black 0%, #ff8a00 12%, #ff8a00 88%, black 100%);

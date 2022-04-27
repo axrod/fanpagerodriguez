@@ -7,7 +7,10 @@ $fuenteSecundaria:Arial, Helvetica, sans-serif;
 @import "header";
 @import "footer";
 
-
+body {
+    background-color: $colorSecundario;
+    font-family: $fuentePrimaria;
+}
 main {
     background: $colorSecundario;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,138,0,1) 12%, rgba(255,138,0,1) 88%, rgba(0,0,0,1) 100%);
