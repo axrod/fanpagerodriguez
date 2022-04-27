@@ -1,0 +1,110 @@
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  padding: auto 10px;
+  transition: 1s;
+  width: 100%;
+  top: 0;
+  z-index: 99; }
+  #navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 20px;
+    border-radius: 10px; }
+  #navbar a.active {
+    color: #ff8a00; }
+
+#navbar-right {
+  float: right;
+  position: relative;
+  top: 50px; }
+  #navbar-right a:hover {
+    background-color: #ff8a00;
+    color: black; }
+
+.header__logo {
+  height: 80%;
+  width: 50%; }
+
+.footer__menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  border-radius: 50%;
+  transition: all .8s;
+  cursor: pointer; }
+  .icon:hover {
+    background-color: #e60073;
+    box-shadow: 0 0 20px #e60073; }
+  .icon i {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7rem; }
+
+.icon:hover:nth-child(2) {
+  background-color: #1877f2;
+  box-shadow: 0 0 20px #1877f2; }
+
+.icon:hover:nth-child(3) {
+  background-color: #25d366;
+  box-shadow: 0 0 20px #25d366; }
+
+.icon:hover:nth-child(4) {
+  background-color: #1da1f2;
+  box-shadow: 0 0 20px #1da1f2; }
+
+svg circle {
+  stroke-dasharray: 150;
+  transition: all .8s ease-in-out; }
+
+.icon:hover circle {
+  stroke-dasharray: 220; }
+
+main {
+  background: black;
+  background: linear-gradient(0deg, black 0%, #ff8a00 12%, #ff8a00 88%, black 100%);
+  grid-area: main; }
+  main .main__portada {
+    min-width: none; }
+  main .main__titulo {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    color: white; }
+  main .main__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  main .main__textintro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 10px;
+    width: 70%;
+    font-weight: bold; }
+  main .main__video1 {
+    margin: 10px; }
+  main .textoCuriosidad {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; }
+  main .main_curiosidades {
+    display: flex;
+    flex-direction: column;
+    border-top: solid black;
+    border-bottom: solid black;
+    margin: 2rem; }

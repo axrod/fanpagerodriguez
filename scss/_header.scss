@@ -1,0 +1,37 @@
+#navbar {
+    overflow: hidden;
+    background-color: $colorSecundario;
+    padding: auto 10px; 
+    transition: 1s; 
+    width: 100%;
+    top: 0; 
+    z-index: 99;
+    a {
+        float: left;
+        color: $colorTerciario;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        line-height: 20px;
+        border-radius: 10px;
+    }
+    a.active {
+        color: $colorPrimario;
+      }  
+}
+
+#navbar-right {
+    float: right;
+    position: relative;
+    top: 50px;
+    a:hover {
+        background-color: $colorPrimario;
+        color: $colorSecundario;
+      }
+}
+
+.header__logo{
+    height: 80%;
+    width: 50%;
+}  
