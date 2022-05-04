@@ -1,11 +1,10 @@
-$colorPrimario:#ff8a00;
-$colorSecundario:black;
-$colorTerciario:white;
-$fuentePrimaria:'Ninja Naruto';
-$fuenteSecundaria:Arial, Helvetica, sans-serif;
-
+@import "general";
+@import "variables";
 @import "header";
 @import "footer";
+@import "maps";
+@import "extends";
+@import "mixins";
 
 body {
     background-color: $colorSecundario;
