@@ -1,3 +1,5 @@
+@import "mixins";
+
 #navbar {
     overflow: hidden;
     background-color: $colorSecundario;
@@ -24,7 +26,7 @@
 #navbar-right {
     float: right;
     position: relative;
-    top: 50px;
+    margin-right: 3rem;
     a:hover {
         background-color: $colorPrimario;
         color: $colorSecundario;
@@ -35,3 +37,4 @@
     height: 80%;
     width: 50%;
 }  
+

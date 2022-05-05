@@ -1,0 +1,9 @@
+@mixin centrar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar {
+    @include centrar;
+}

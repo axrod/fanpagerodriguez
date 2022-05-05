@@ -1,0 +1,11 @@
+$estilos:(
+    color: white,
+    fontSize: 1rem,
+    negrita: bold,
+);
+
+.textoCuriosidad {
+    color: map-get($estilos, color );
+    font-size: map-get($estilos, fontSize );
+    font-weight: map-get($estilos, negrita );
+}

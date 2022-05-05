@@ -52,6 +52,176 @@ main {
     } 
 }
 
+/* personajes */
+.personaje__info{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid white;
+    background-color: black;
+}
+.imagen__personaje{
+    width: 50%;
+    height: auto;
+}
+.nombre__personaje{
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+/* CAPITULOS */
+
+.lista_grid{
+    display: grid;
+    grid-template-columns: 0.5fr 8fr 0.5fr;
+    grid-template-rows: repeat(10, 1fr);
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+}
+
+.main__tabla{
+    border: 2px solid black;
+}
+.aaa{
+    background-color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.info_tabla{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* OPENINGS */
+.opening__section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.op__titulo {
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.op__if {
+    margin: 15px;
+    
+}
+
+/* PELICULAS */
+.peli__grid{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 8fr 8fr;
+    grid-template-areas: 
+    "titulo titulo"
+    "img video"
+    "img info";
+}
+
+.peli__titulo {
+    font-size: 2rem;
+    /* margin: 10px; */
+    grid-area: titulo;
+}
+
+.peli__img {
+    grid-area: img;
+
+}
+
+.peli__info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 40%;
+    grid-area: info;
+}
+
+.peli__video{
+    grid-area: video;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+/* HEADER */
+@media screen and (max-width: 767px) {
+    #navbar {
+        padding: 20px 10px !important; 
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    #navbar-right {
+      float: none;
+      position: static;
+    }
+    .main_index{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-basis: 100%;
+        width: 100%;
+    }
+    /* personajes */
+     .personaje__info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .lorem__info{
+        height: auto;
+        width: 100%;
+        margin: 10px;
+    } 
+    /* PELICULAS */
+    .peli__grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 4fr 2fr 0.5fr;
+        grid-template-areas: 
+        "titulo"
+        "img"
+        "video"
+        "info";
+    }
+    .peli__info {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    /* capitulos */
+    .lista_grid{
+        grid-template-rows: repeat(10, 0.5fr);
+    }
+}
+
+@media screen and (max-width:1024) {
+    
+    #navbar a {
+      float: none;
+      text-align: left;
+      font-size: 0.5rem;
+    }
+    #navbar-right {
+      float: none;
+      position: static;
+    }
+}
+
 
 
 

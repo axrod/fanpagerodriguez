@@ -1,0 +1,19 @@
+.lorem__info{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.lorem__info2{
+    @extend .lorem__info;
+    color: lightblue;
+}
+
+.lorem__info3{
+    @extend .lorem__info;
+    color: pink;
+}
+
