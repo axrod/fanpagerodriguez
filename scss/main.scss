@@ -51,7 +51,6 @@ main {
         margin: 2rem;
     } 
 }
-
 /* personajes */
 .personaje__info{
     display: flex;
@@ -69,9 +68,7 @@ main {
     font-weight: bold;
     color: white;
 }
-
 /* CAPITULOS */
-
 .lista_grid{
     display: grid;
     grid-template-columns: 0.5fr 8fr 0.5fr;
@@ -80,7 +77,6 @@ main {
     text-align: center;
     margin: 10px;
 }
-
 .main__tabla{
     border: 2px solid black;
 }
@@ -89,12 +85,10 @@ main {
     font-size: 1.5em;
     font-weight: bold;
 }
-
 .info_tabla{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-
 /* OPENINGS */
 .opening__section{
     display: flex;
@@ -105,12 +99,9 @@ main {
     font-size: 2rem;
     margin: 10px;
 }
-
 .op__if {
-    margin: 15px;
-    
+    margin: 15px;   
 }
-
 /* PELICULAS */
 .peli__grid{
     display: grid;
@@ -122,38 +113,24 @@ main {
     "img video"
     "img info";
 }
-
 .peli__titulo {
     font-size: 2rem;
     /* margin: 10px; */
     grid-area: titulo;
 }
-
 .peli__img {
     grid-area: img;
 
 }
-
 .peli__info {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     width: 40%;
     grid-area: info;
 }
-
 .peli__video{
     grid-area: video;
 }
-
-
-
-
-
-
-
-
-
-
 /* MEDIA QUERIES */
 
 /* HEADER */
