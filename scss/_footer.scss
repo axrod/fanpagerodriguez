@@ -1,9 +1,12 @@
+footer {
+    background-color: black;
+}
 .footer__menu {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
 .icon {
@@ -42,8 +45,6 @@
     background-color: #1da1f2;
     box-shadow:  0 0 20px #1da1f2 ;
 }
-
-
 
 svg circle {
     stroke-dasharray: 150;
