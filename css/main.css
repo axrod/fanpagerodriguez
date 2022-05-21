@@ -252,6 +252,8 @@ main {
 /* MEDIA QUERIES */
 /* HEADER */
 @media screen and (max-width: 767px) {
+  main {
+    background: #ff8a00; }
   #navbar {
     padding: 20px 10px !important; }
   #navbar a {
@@ -265,7 +267,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* flex-basis: 100%; */
     width: 100%;
     flex: 100%; }
     .main_index .main__titulo {

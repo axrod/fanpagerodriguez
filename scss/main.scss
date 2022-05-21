@@ -161,6 +161,9 @@ main {
 
 /* HEADER */
 @media screen and (max-width: 767px) {
+    main{
+        background: $colorPrimario;
+    }
     #navbar {
         padding: 20px 10px !important; 
     }
@@ -177,7 +180,6 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* flex-basis: 100%; */
         width: 100%;
         flex: 100%;
         .main__titulo{
